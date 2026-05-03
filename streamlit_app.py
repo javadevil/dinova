@@ -84,7 +84,7 @@ def get_fertilizer_link()->str:
 
     return URL ชองร้านปุ๋ยที่เอาไปแนะนำผู้ใช้ได้.
     """
-    return "http://localhost:8501/ads"
+    return "https://dinovagit-b6pbgadkfsapcgzymwoekb.streamlit.app/ads"
     
 def chat_with_ai(text:str):
     client = gemini_client()
